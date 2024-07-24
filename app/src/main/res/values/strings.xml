@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PatternsPDP</string>
+    <string name="simple_task">%1$s (simple)</string>
+    <string name="deadline_task">%1$s (deadline: %2$s)</string>
+    <string name="add_circle_title">Add Circle</string>
+    <string name="add_square_title">Add Square</string>
+    <string name="add_circle_with_border_title">Add Circle with Border</string>
+    <string name="add_square_with_border_title">Add Square with Border</string>
+    <string name="flyweight_pattern_title">Flyweight Pattern</string>
+    <string name="todolist_title">TodoList</string>
+    <string name="task_title">Task Title</string>
+    <string name="add_simple_task_title">Add Simple Task</string>
+    <string name="add_deadline_task_title">Add Deadline Task</string>
+    <string name="sort_by_title">Sort by Title</string>
+    <string name="sort_by_deadline_title">Sort by Deadline</string>
+    <string name="tasks_will_be_displayed_here_hint">Tasks will be displayed here</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.pdppatterns.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_flyweightFragment"
+            app:destination="@id/flyweightFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_todoListFragment"
+            app:destination="@id/todolistFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flyweightFragment"
+        android:name="com.example.pdppatterns.flyweight_and_decorator.FlyweightFragment"
+        android:label="Flyweight Fragment"
+        tools:layout="@layout/fragment_flyweight" />
+
+    <fragment
+        android:id="@+id/todolistFragment"
+        android:name="com.example.pdppatterns.other.TodoListFragment"
+        android:label="TodoList Fragment"
+        tools:layout="@layout/fragment_todolist" />
+
+</navigation>
